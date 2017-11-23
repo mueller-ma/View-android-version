@@ -1,0 +1,1 @@
+Einfache App, um Informationen zur Android-Version anzuzeigen

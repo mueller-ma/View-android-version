@@ -1,0 +1,1 @@
+Einfache App, um Informationen zur Android-Version anzuzeigen. Normalerweise sind diese Informationen unter "Einstellungen" => "Über" sichtbar, fehlen aber auf manchen ROMs, z. B. FireOS.
