@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android-Version</string>
+    <string name="invalid">Ungültig</string>
+    <string name="codename">Codename: %s\n</string>
+    <string name="version">Version: %s (API %d)\n</string>
+    <string name="based_on">ROM basierend auf: %s\n</string>
+    <string name="preview">Preview-Veröffentlichung von %s (API %d)\n</string>
+    <string name="patch">Stand der Sicherheitsupdates: %s\n</string>
+</resources>

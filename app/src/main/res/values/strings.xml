@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android version</string>
+    <string name="made_by">Made with ♥ by</string>
+    <string name="invalid">Invalid</string>
+    <string name="codename">Code name: %s\n</string>
+    <string name="version">Version: %s (API %d)\n</string>
+    <string name="based_on">ROM based on: %s\n</string>
+    <string name="preview">Preview release of %s (API %d)\n</string>
+    <string name="patch">Patch level: %s\n</string>
+</resources>
