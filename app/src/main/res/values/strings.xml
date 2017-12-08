@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">Android version</string>
-    <string name="made_by" translatable="false">Made by</string>
     <string name="invalid">Invalid</string>
     <string name="codename">Code name: %s\n</string>
     <string name="version">Version: %s (API %d)\n</string>
     <string name="based_on">ROM based on: %s\n</string>
     <string name="preview">Preview release of %s (API %d)\n</string>
     <string name="patch">Patch level: %s\n</string>
+    <string name="made_by">Author</string>
+    <string name="license">License</string>
+    <string name="android_trademark">Android is a trademark of Google LLC.</string>
+    <string name="divider" translatable="false">\u00A0-\u00A0</string>
+    <string name="source_code">Source code</string>
 </resources>
