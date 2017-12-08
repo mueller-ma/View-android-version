@@ -6,4 +6,8 @@
     <string name="based_on">ROM basierend auf: %s\n</string>
     <string name="preview">Preview-Veröffentlichung von %s (API %d)\n</string>
     <string name="patch">Stand der Sicherheitsupdates: %s\n</string>
+    <string name="made_by">Author</string>
+    <string name="license">Lizenz</string>
+    <string name="android_trademark">Android ist eine Marke von Google Inc.</string>
+    <string name="source_code">Quellcode</string>
 </resources>
