@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Android version</string>
-    <string name="invalid">Invalid</string>
     <string name="codename">Code name: %s\n</string>
     <string name="version">Version: %s (API %d)\n</string>
     <string name="based_on">ROM based on: %s\n</string>
@@ -11,4 +10,5 @@
     <string name="android_trademark">Android is a trademark of Google LLC.</string>
     <string name="divider" translatable="false">\u00A0-\u00A0</string>
     <string name="source_code">Source code</string>
+    <string name="unknown">Unknown</string>
 </resources>

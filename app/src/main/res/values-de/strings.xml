@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Android-Version</string>
-    <string name="invalid">Ungültig</string>
     <string name="codename">Codename: %s\n</string>
     <string name="version">Version: %s (API %d)\n</string>
     <string name="based_on">ROM basierend auf: %s\n</string>
@@ -10,4 +9,5 @@
     <string name="license">Lizenz</string>
     <string name="android_trademark">Android ist eine Marke von Google Inc.</string>
     <string name="source_code">Quellcode</string>
+    <string name="unknown">Unbekannt</string>
 </resources>

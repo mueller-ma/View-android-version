@@ -41,12 +41,15 @@ public class MainActivity extends AppCompatActivity {
             case 26:
             case 27: name = "Oreo";
             break;
-            default: name = getString(R.string.invalid);
+            default: name = getString(R.string.unknown);
         }
         t.setText(String.format(getString(R.string.codename), name));
         t.append(String.format(Locale.US,getString(R.string.version), Build.VERSION.RELEASE, sdk));
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            t.append(String.format(getString(R.string.based_on), Build.VERSION.BASE_OS));
+            String baseOs = Build.VERSION.BASE_OS;
+            if (baseOs.length() > 0) {
+                t.append(String.format(getString(R.string.based_on), baseOs));
+            }
             int prevSDK = Build.VERSION.PREVIEW_SDK_INT;
             if(prevSDK != 0) {
                 t.append(String.format(Locale.US, getString(R.string.preview), Build.VERSION.CODENAME, prevSDK));
