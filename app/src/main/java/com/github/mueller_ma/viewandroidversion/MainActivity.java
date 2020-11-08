@@ -1,7 +1,7 @@
 package com.github.mueller_ma.viewandroidversion;
 
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
             case 26:
             case 27: name = "Oreo";
             break;
+            case 28: name = "Pie";
+            break;
+            case 29: name = "Q";
+            break;
             default: name = getString(R.string.unknown);
         }
         t.setText(String.format(getString(R.string.codename), name));
@@ -67,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 ": <a href='https://www.gnu.org/licenses/gpl-3.0.txt'>GNU GPLv3</a>" +
                 getString(R.string.divider) +
                 getString(R.string.source_code) +
-                ": <a href='https://gitlab.com/mueller-ma/View-android-version'>GitLab</a>";
+                ": <a href='https://github.com/mueller-ma/View-android-version'>GitHub</a>";
         made_by.setText(Html.fromHtml(text));
         made_by.append('\n' + getString(R.string.android_trademark));
     }

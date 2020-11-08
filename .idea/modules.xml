@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ViewAndroidversion.iml" filepath="$PROJECT_DIR$/ViewAndroidversion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/View-android-version.iml" filepath="$PROJECT_DIR$/.idea/modules/View-android-version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/View-android-version.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/View-android-version.app.iml" />
     </modules>
   </component>
 </project>
