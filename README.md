@@ -1,5 +1,16 @@
-# View android version
+# View Android version
 
-<b>Moved source code: https://gitlab.com/mueller-ma/View-android-version</b>
- 
-Simple app to view android version information. Usually these information are visible under `Settings` => `About`, but on some ROMs, e. g. FireOS they are not visible.
+Simple app to view Android version information. Usually these information are visible under `Settings` => `About`, but on some ROMs, e. g. FireOS they are not visible.
+
+## Download
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/de/packages/com.github.mueller_ma.viewandroidversion/)
+
+## Screenshot
+
+<img src="fastlane/metadata/android/en-US/phoneScreenshots/1.png" alt="Screenshot" height="800">
+
+
+## License
+[GNU GPL-3](https://gitlab.com/mueller-ma/View-android-version/blob/master/LICENSE)
+
+Android is a trademark of Google LLC.
