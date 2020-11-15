@@ -14,3 +14,5 @@ Simple app to view Android version information. Usually these information are vi
 [GNU GPL-3](https://gitlab.com/mueller-ma/View-android-version/blob/master/LICENSE)
 
 Android is a trademark of Google LLC.
+
+Feature graphic by https://unsplash.com/@mbaumi
