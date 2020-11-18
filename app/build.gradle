@@ -8,8 +8,8 @@ android {
         applicationId "com.github.mueller_ma.viewandroidversion"
         minSdkVersion 14
         targetSdkVersion 30
-        versionCode 4
-        versionName "1.4"
+        versionCode 5
+        versionName "1.5"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     buildTypes {
