@@ -16,54 +16,55 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView t = findViewById(R.id.version);
-        int sdk = Build.VERSION.SDK_INT;
-        String name;
-        switch (sdk) {
+        int sdkVersion = Build.VERSION.SDK_INT;
+        String versionName;
+        switch (sdkVersion) {
             case 14:
-            case 15: name = "Ice Cream Sandwich";
+            case 15: versionName = "Ice Cream Sandwich";
             break;
             case 16:
             case 17:
-            case 18: name = "Jelly Bean";
+            case 18: versionName = "Jelly Bean";
             break;
             case 19:
-            case 20: name = "Kitkat";
+            case 20: versionName = "Kitkat";
             break;
             case 21:
-            case 22: name = "Lollipop";
+            case 22: versionName = "Lollipop";
             break;
-            case 23: name = "Marshmallow";
+            case 23: versionName = "Marshmallow";
             break;
             case 24:
-            case 25: name = "Nougat";
+            case 25: versionName = "Nougat";
             break;
             case 26:
-            case 27: name = "Oreo";
+            case 27: versionName = "Oreo";
             break;
-            case 28: name = "Pie";
+            case 28: versionName = "Pie";
             break;
-            case 29: name = "Q";
+            case 29: versionName = "Q";
             break;
-            default: name = getString(R.string.unknown);
+            default: versionName = getString(R.string.unknown);
         }
-        t.setText(String.format(getString(R.string.codename), name));
-        t.append(String.format(Locale.US,getString(R.string.version), Build.VERSION.RELEASE, sdk));
+
+        TextView versionTextView = findViewById(R.id.version);
+        versionTextView.setText(String.format(getString(R.string.codename), versionName));
+        versionTextView.append(String.format(Locale.US,getString(R.string.version), Build.VERSION.RELEASE, sdkVersion));
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             String baseOs = Build.VERSION.BASE_OS;
             if (baseOs.length() > 0) {
-                t.append(String.format(getString(R.string.based_on), baseOs));
+                versionTextView.append(String.format(getString(R.string.based_on), baseOs));
             }
             int prevSDK = Build.VERSION.PREVIEW_SDK_INT;
             if(prevSDK != 0) {
-                t.append(String.format(Locale.US, getString(R.string.preview), Build.VERSION.CODENAME, prevSDK));
+                versionTextView.append(String.format(Locale.US, getString(R.string.preview), Build.VERSION.CODENAME, prevSDK));
             }
-            t.append(String.format(getString(R.string.patch), Build.VERSION.SECURITY_PATCH));
+            versionTextView.append(String.format(getString(R.string.patch), Build.VERSION.SECURITY_PATCH));
         }
 
-        TextView made_by = findViewById(R.id.made_by);
-        made_by.setClickable(true);
-        made_by.setMovementMethod(LinkMovementMethod.getInstance());
+        TextView madeByTextView = findViewById(R.id.made_by);
+        madeByTextView.setClickable(true);
+        madeByTextView.setMovementMethod(LinkMovementMethod.getInstance());
         String text = getString(R.string.made_by) +
                 ": <a href='https://www.github.com/mueller-ma'>mueller-ma</a>" +
                 getString(R.string.divider) +
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 getString(R.string.divider) +
                 getString(R.string.source_code) +
                 ": <a href='https://github.com/mueller-ma/View-android-version'>GitHub</a>";
-        made_by.setText(Html.fromHtml(text));
-        made_by.append('\n' + getString(R.string.android_trademark));
+        madeByTextView.setText(Html.fromHtml(text));
+        madeByTextView.append('\n' + getString(R.string.android_trademark));
     }
 }
