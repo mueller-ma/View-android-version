@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android versie</string>
+    <string name="codename">Code naam: %s\n</string>
+    <string name="version">Versie: %s (API %d)\n</string>
+    <string name="based_on">ROM gebaseerd op: %s\n</string>
+    <string name="preview">Preview-versie van %s (API %d)\n</string>
+    <string name="patch">Patch niveau: %s\n</string>
+    <string name="made_by">Auteur</string>
+    <string name="license">Licentie</string>
+    <string name="android_trademark">Android is een handelsmerk van Google LLC.</string>
+    <string name="source_code">Broncode</string>
+    <string name="unknown">Onbekend</string>
+</resources>
