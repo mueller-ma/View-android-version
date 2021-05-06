@@ -1,0 +1,2 @@
+* Add Android R
+* Update translations
