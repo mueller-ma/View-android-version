@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
             break;
             case 29: versionName = "Q";
             break;
+            case 30: versionName = "R";
+            break;
             default: versionName = getString(R.string.unknown);
         }
 
