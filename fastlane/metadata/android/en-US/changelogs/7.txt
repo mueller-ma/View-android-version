@@ -1,0 +1,2 @@
+* Add margins to layout
+* Update dependencies
