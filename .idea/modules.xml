@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/View-android-version.iml" filepath="$PROJECT_DIR$/.idea/modules/View-android-version.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/View-android-version.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/View-android-version.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/View-android-version.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/View-android-version.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/View-android-version.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/View-android-version.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/View-android-version.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/View-android-version.app.unitTest.iml" />
     </modules>
   </component>
 </project>
