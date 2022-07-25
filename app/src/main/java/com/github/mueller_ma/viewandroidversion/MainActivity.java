@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 versionName = "R";
                 break;
             case 31:
+            case 32:
                 versionName = "S";
                 break;
             default:
