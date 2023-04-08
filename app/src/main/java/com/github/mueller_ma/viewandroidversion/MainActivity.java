@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
             case 32:
                 versionName = "S";
                 break;
+            case 33:
+                versionName = "Tiramisu";
+                break;
             default:
                 versionName = getString(R.string.unknown);
         }

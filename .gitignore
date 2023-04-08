@@ -1,9 +1,10 @@
 *.iml
 .gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+/.idea/deploymentTargetDropDown.xml
 /.idea/jarRepositories.xml
+/.idea/libraries
+/.idea/workspace.xml
+/local.properties
 .DS_Store
 /build
 /captures
